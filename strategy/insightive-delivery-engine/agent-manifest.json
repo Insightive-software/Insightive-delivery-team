@@ -1,0 +1,143 @@
+{
+  "version": "0.1.0",
+  "owner": "Insightive",
+  "description": "Curated agent allowlist for the Insightive delivery engine. Keep the upstream catalog intact, but load these agents by default.",
+  "defaultPolicy": {
+    "loadMode": "curated",
+    "humanApprovalRequiredFor": [
+      "external_communication",
+      "production_deployment",
+      "scope_change",
+      "budget_change",
+      "destructive_operation",
+      "client_visible_commitment"
+    ]
+  },
+  "alwaysOn": [
+    "project-management/project-management-studio-producer.md",
+    "project-management/project-manager-senior.md",
+    "project-management/project-management-project-shepherd.md",
+    "product/product-manager.md",
+    "engineering/engineering-software-architect.md",
+    "engineering/engineering-senior-developer.md",
+    "engineering/engineering-minimal-change-engineer.md",
+    "engineering/engineering-code-reviewer.md",
+    "engineering/engineering-devops-automator.md",
+    "engineering/engineering-sre.md",
+    "testing/testing-reality-checker.md",
+    "testing/testing-api-tester.md",
+    "testing/testing-evidence-collector.md",
+    "support/support-support-responder.md",
+    "support/support-executive-summary-generator.md",
+    "specialized/specialized-chief-of-staff.md",
+    "specialized/agents-orchestrator.md",
+    "specialized/automation-governance-architect.md"
+  ],
+  "benches": {
+    "softwareDelivery": [
+      "engineering/engineering-backend-architect.md",
+      "engineering/engineering-frontend-developer.md",
+      "engineering/engineering-database-optimizer.md",
+      "engineering/engineering-data-engineer.md",
+      "engineering/engineering-ai-engineer.md",
+      "engineering/engineering-ai-data-remediation-engineer.md",
+      "engineering/engineering-prompt-engineer.md",
+      "engineering/engineering-technical-writer.md",
+      "security/security-appsec-engineer.md",
+      "security/security-architect.md"
+    ],
+    "websiteAndEcommerce": [
+      "engineering/engineering-astro-web-developer.md",
+      "engineering/engineering-shopify-website-developer.md",
+      "engineering/engineering-shopify-app-developer.md",
+      "design/design-ux-architect.md",
+      "design/design-ui-designer.md",
+      "design/design-brand-guardian.md",
+      "design/design-image-prompt-engineer.md",
+      "engineering/engineering-cms-developer.md"
+    ],
+    "marketingAndGrowth": [
+      "marketing/marketing-content-creator.md",
+      "marketing/marketing-seo-specialist.md",
+      "marketing/marketing-aeo-foundations.md",
+      "marketing/marketing-agentic-search-optimizer.md",
+      "marketing/marketing-ai-citation-strategist.md",
+      "marketing/marketing-email-strategist.md",
+      "marketing/marketing-linkedin-content-creator.md",
+      "marketing/marketing-social-media-strategist.md",
+      "marketing/marketing-pr-communications-manager.md",
+      "marketing/marketing-growth-hacker.md",
+      "paid-media/paid-media-tracking-specialist.md",
+      "paid-media/paid-media-ppc-strategist.md",
+      "paid-media/paid-media-paid-social-strategist.md"
+    ],
+    "salesFinanceOps": [
+      "sales/sales-discovery-coach.md",
+      "sales/sales-proposal-strategist.md",
+      "sales/sales-account-strategist.md",
+      "sales/sales-engineer.md",
+      "support/support-finance-tracker.md",
+      "finance/finance-bookkeeper-controller.md",
+      "finance/finance-financial-analyst.md",
+      "finance/finance-fpa-analyst.md",
+      "specialized/business-strategist.md",
+      "specialized/operations-manager.md",
+      "specialized/specialized-pricing-analyst.md",
+      "support/support-legal-compliance-checker.md"
+    ]
+  },
+  "projectTypeRouting": {
+    "astroWebsite": [
+      "project-management/project-manager-senior.md",
+      "product/product-manager.md",
+      "design/design-ux-architect.md",
+      "design/design-ui-designer.md",
+      "engineering/engineering-astro-web-developer.md",
+      "marketing/marketing-seo-specialist.md",
+      "marketing/marketing-ai-citation-strategist.md",
+      "testing/testing-reality-checker.md"
+    ],
+    "shopifyStorefront": [
+      "project-management/project-manager-senior.md",
+      "design/design-ui-designer.md",
+      "engineering/engineering-shopify-website-developer.md",
+      "marketing/marketing-seo-specialist.md",
+      "paid-media/paid-media-tracking-specialist.md",
+      "testing/testing-reality-checker.md"
+    ],
+    "shopifyApp": [
+      "project-management/project-manager-senior.md",
+      "product/product-manager.md",
+      "engineering/engineering-software-architect.md",
+      "engineering/engineering-shopify-app-developer.md",
+      "security/security-appsec-engineer.md",
+      "testing/testing-api-tester.md",
+      "testing/testing-reality-checker.md"
+    ],
+    "softwareProject": [
+      "project-management/project-manager-senior.md",
+      "product/product-manager.md",
+      "engineering/engineering-software-architect.md",
+      "engineering/engineering-backend-architect.md",
+      "engineering/engineering-frontend-developer.md",
+      "testing/testing-api-tester.md",
+      "testing/testing-reality-checker.md"
+    ],
+    "automationProject": [
+      "project-management/project-manager-senior.md",
+      "engineering/engineering-software-architect.md",
+      "engineering/engineering-ai-engineer.md",
+      "engineering/engineering-devops-automator.md",
+      "specialized/automation-governance-architect.md",
+      "testing/testing-api-tester.md"
+    ],
+    "marketingProject": [
+      "project-management/project-manager-senior.md",
+      "marketing/marketing-content-creator.md",
+      "marketing/marketing-seo-specialist.md",
+      "marketing/marketing-email-strategist.md",
+      "marketing/marketing-linkedin-content-creator.md",
+      "testing/testing-evidence-collector.md"
+    ]
+  }
+}

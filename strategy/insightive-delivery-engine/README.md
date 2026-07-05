@@ -39,6 +39,9 @@ Specialists are not permanent team members. The Delivery Producer calls them onl
 | Project type | Pull these specialists |
 |---|---|
 | Website / landing page | `design/design-ux-architect.md`, `design/design-ui-designer.md`, `engineering/engineering-frontend-developer.md`, `marketing/marketing-seo-specialist.md` |
+| Astro website / content site | `engineering/engineering-astro-web-developer.md`, `design/design-ui-designer.md`, `marketing/marketing-seo-specialist.md`, `marketing/marketing-ai-citation-strategist.md` |
+| Shopify storefront | `engineering/engineering-shopify-website-developer.md`, `design/design-ui-designer.md`, `marketing/marketing-seo-specialist.md`, `paid-media/paid-media-tracking-specialist.md` |
+| Shopify app | `engineering/engineering-shopify-app-developer.md`, `engineering/engineering-backend-architect.md`, `security/security-appsec-engineer.md`, `testing/testing-api-tester.md` |
 | SaaS / web app | `engineering/engineering-backend-architect.md`, `engineering/engineering-frontend-developer.md`, `engineering/engineering-database-optimizer.md`, `testing/testing-api-tester.md` |
 | Automation / integrations | `engineering/engineering-ai-engineer.md`, `engineering/engineering-email-intelligence-engineer.md`, `engineering/engineering-devops-automator.md` |
 | AI/data project | `engineering/engineering-ai-engineer.md`, `engineering/engineering-data-engineer.md`, `engineering/engineering-ai-data-remediation-engineer.md` |
