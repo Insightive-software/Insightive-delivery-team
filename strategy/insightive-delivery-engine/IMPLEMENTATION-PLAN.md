@@ -50,6 +50,7 @@ Exit criteria:
 
 Minimum components:
 
+- Chainlit internal operator console.
 - Intake form/API for Umar, client, and team inputs.
 - Request normalizer.
 - Approval queue.
@@ -59,6 +60,7 @@ Minimum components:
 
 Suggested stack:
 
+- Internal UI: Chainlit for first operator console.
 - Web app: Next.js or FastAPI.
 - Database: Postgres.
 - Queue: Redis/BullMQ, Celery, or a managed queue.
@@ -70,6 +72,7 @@ Exit criteria:
 - Inputs become structured requests.
 - Approved requests can create/update Teamwork tasks.
 - Every agent/tool run has an audit entry and estimated cost.
+- Team members can use Chainlit to submit requests, review approvals, and inspect agent runs.
 
 ## Phase 3: Agent Runner
 

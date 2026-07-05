@@ -69,6 +69,7 @@ flowchart LR
 
 | Component | Job |
 |---|---|
+| Chainlit Internal Console | First team-facing chat interface for intake, approvals, status queries, agent run inspection, and controlled workflow triggers. |
 | Intake Gateway | Receives client/team/Umar inputs from forms, AgentMail, Teamwork comments, uploaded docs, and eventually chat channels. |
 | Normalizer | Converts messy inputs into structured records: client, project, request, decision, risk, task, artifact, approval. |
 | Teamwork PM Adapter | Creates and updates project/task graph, dependencies, status comments, milestones, and client-facing plan items. |
